@@ -1,20 +1,233 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>New Brackground Generator</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body id="gradient">
-	<h1>Background Generator</h1>
-	<input class="color1" type="color" name="color1" value="#00ff00">
-	<input class="color2" type="color" name="color2" value="#ff0000">
-	<h2>Current CSS Background</h2>
-	<h3></h3>
+<html lang="en">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /> 
+        <meta name="description" content="The Octagon Group of Companies comprises Octagon Shopfitting &amp; Building Services and Octagon Bespoke Joinery">
+        <title>Home | Octagon Group of Companies Ltd.</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav id="nav">
+            <div class="logo">
+                <p class="logoFirstName">OCTAGON</p>
+                <p class="logoLastName">Group of Companies Limited</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li class="dropdown"><a href="#services">Services</a>
+                    <ul class="dropdown-content">
+                        <li><a href="">Shopfitting</a></li>
+                        <li><a href="">Bespoke Joinery</a></li>
+                        <li><a href="">Fire Doors</a></li>
+                        <li><a href="">Design</a></li>
+                        <li><a href="">New Concepts</a></li>
+                        <li><a href="">Implementing AI in Retail Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Career</a></li>
+                <li><a href="">Blog & News</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+        <!-- End fo Navigation -->
 
+        <section id="homeFirst">
+            <div class="overlay">
+                <div class="homeDescription">
+                    <h1>Craftsmanship &#8226 Innovation &#8226 Excellence</h1>
+                    <a href="#about" class="buttonDown">
+                     <div class="arrow"></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Home -->
 
+        <hr class="fancy-line">
+        <!-- Section About  Us -->
+        <section id="about" class="about">
+            <div class="aboutName" id="aboutName">
+                <h1 class="aboutTitle">Octagon Shopfitting & Bespoke Joinery</h1>
+                <h2>About Us</h2>
+                <p>
+                    Welcome to Octagon Shopfitting and Bespoke Joinery, where over two decades of expertise meet innovation and excellence in the heart of London and its surroundings. Our journey began over 20 years ago, rooted in a passion for creating spaces that combine aesthetic appeal with functionality. Today, we are proud to be at the forefront of shopfitting and bespoke joinery services, continually pushing the boundaries of design and craftsmanship. <br>
+                    With a commitment to safety and quality, we boast 10 years of specialized experience in manufacturing Fire Doors, proudly approved by BM Trada. Our dedication to adhering to the highest standards ensures that our products are not only visually captivating but also meet rigorous safety specifications.<br>
+                    At Octagon, innovation is at the core of what we do. We are constantly exploring new designs, materials, and technologies to bring our clients' visions to life. From the initial concept to the final touches, our team works tirelessly to create bespoke solutions that are tailored to each project's unique requirements.<br>
+                    Our expertise spans a diverse range of sectors, including health, retail, airlines, schools, colleges, and offices. This versatility enables us to understand the specific needs of each industry, providing tailored solutions that enhance functionality and enrich the user experience.<br>
+                    Octagon Shopfitting and Bespoke Joinery is more than just a service provider; we are your partner in transforming spaces. Let us bring your vision to life with our commitment to excellence, innovation, and craftsmanship.<br>
+                </p>
+                <h2>Our Clients</h2>
+                <p>At Octagon Shopfitting and Bespoke Joinery, we pride ourselves on the relationships we've built and the projects we've brought to life alongside an impressive roster of clients. From bustling retail spaces and serene health facilities to dynamic educational institutions and cutting-edge offices, our portfolio is a testament to our versatility and commitment to excellence. Each logo that spins through this carousel represents a unique story of collaboration and innovation. Join us on a visual journey through our valued partnerships, reflecting our wide-ranging expertise across various sectors. Let's create something remarkable together.</p>
+                <div class="carousel">
+                  <div class="carousel-inner" id="carouselInner">
+                    <img src="logos/logo1.png" alt="Logo 1" class="carousel-item">
+                    <img src="logos/logo2.jpg" alt="Logo 2" class="carousel-item">
+                    <img src="logos/logo3.jpg" alt="Logo 3" class="carousel-item">
+                    <img src="logos/logo4.jpg" alt="Logo 4" class="carousel-item">
+                    <img src="logos/logo5.jpg" alt="Logo 5" class="carousel-item">
+                    <img src="logos/logo6.jpg" alt="Logo 6" class="carousel-item">
+                    <img src="logos/logo7.jpg" alt="Logo 7" class="carousel-item">
+                    <img src="logos/logo8.jpg" alt="Logo 8" class="carousel-item">
+                    <img src="logos/logo9.jpg" alt="Logo 9" class="carousel-item">
+                    <img src="logos/logo10.jpg" alt="Logo 10" class="carousel-item">
+                    <img src="logos/logo1.png" alt="Logo 1" class="carousel-item">
+                    <img src="logos/logo2.jpg" alt="Logo 2" class="carousel-item">
+                    <img src="logos/logo3.jpg" alt="Logo 3" class="carousel-item">
+                    <img src="logos/logo4.jpg" alt="Logo 4" class="carousel-item">
+                    <img src="logos/logo5.jpg" alt="Logo 5" class="carousel-item">
+                    <img src="logos/logo6.jpg" alt="Logo 6" class="carousel-item">
+                    <img src="logos/logo7.jpg" alt="Logo 7" class="carousel-item">
+                    <img src="logos/logo8.jpg" alt="Logo 8" class="carousel-item">
+                    <img src="logos/logo9.jpg" alt="Logo 9" class="carousel-item">
+                    <img src="logos/logo10.jpg" alt="Logo 10" class="carousel-item">              
+                  </div> 
+                </div>
+            </div>
+        </section>
+        <!-- End Section About Us -->
 
-<script src="script.js" type="text/javascript"></script>
-</body>
-</html>
+        <hr class="fancy-line">
+
+        <!-- Section Home Second  -->
+        <section id="homeSecond">
+            <div class="overlay">
+                <div class="homeDescription">
+                    <h1>Skill &#8226 Creativity &#8226 Superiority</h1>
+                </div>
+            </div>
+        </section>
+        <!-- End Section Home Second -->
+
+        <hr class="fancy-line">
+
+        <section id="services">
+            <h1 class="servicesTitle">Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum qui temporibus sequi recusandae, molestiae asperiores ea? 
+               Quis ducimus voluptatibus ullam porro numquam hic veritatis. Eveniet incidunt quia ipsum voluptatum similique?
+            </p>
+            <div class="services">
+                <div class="card">
+                    <div class="card-background" style="background-image: url('images/shopfitting.jpg');">
+                      <h3 class="card-title">Shopfitting</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-background" style="background-image: url('images/bespoke.jpg');">
+                      <h3 class="card-title">Bespoke Joinery</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-background" style="background-image: url('images/doors.jpg');">
+                      <h3 class="card-title">Fire Doors</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-background" style="background-image: url('images/design.jpg');">
+                      <h3 class="card-title">Design</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-background" style="background-image: url('images/newconcepts.jpg');">
+                      <h3 class="card-title">New Concepts</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-background" style="background-image: url('images/ai.jpg');">
+                      <h3 class="card-title">Implementing AI in Retail Design</h3>
+                      <div class="card-hover-content">
+                        <p class="card-text">Your text goes here.</p>
+                        <button class="more-btn">More</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <hr class="fancy-line">
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+          <div class="container">
+              <h2>Contact Us</h2>
+              <p>For inquiries or further information, please feel free to reach out to us. Our team is dedicated to providing assistance and addressing your needs with utmost professionalism.</p>
+              <div class="contact-content">
+                  <div class="contact-info">
+                      <p><strong>Address:</strong> 54 Lower Marsh Lane, Kingston upon Thames, KT3 4BJ</p>
+                      <p><strong>Phone:</strong> +44 1234 567890</p>
+                      <div id="map" class="google-map"></div>
+                  </div>
+                  <form class="contact-form" action="#" method="post">
+                      <!-- Form fields -->
+                      <div class="form-group">
+                          <input type="text" name="name" required>
+                          <label for="name" class="form-label">Your Name</label>
+                      </div>
+                      <div class="form-group">
+                          <input type="email" name="email" required>
+                          <label for="email" class="form-label">Your Email</label>
+                      </div>
+                      <div class="form-group">
+                          <textarea name="message" rows="4" required></textarea>
+                          <label for="message" class="form-label">Your Message</label>
+                      </div>
+                      <button type="submit" class="submit-btn">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </section>
+      <footer class="site-footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!-- Add other sections as needed -->
+                </ul>
+            </nav>
+            <div class="footer-text">
+                <p>© 2024 Octagon Shopfitting and Bespoke Joinery. All rights reserved.</p>
+                <div class="creator-credit">
+                  <p>Powered & Designed by <a href="https://yourportfolio.com" target="_blank">Alex Petrisor</a></p>
+              </div>
+            </div>
+        </div>
+    </footer>
+      
+    <script src="script.js"></script>     
+    </body>
